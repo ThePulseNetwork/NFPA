@@ -19,17 +19,101 @@
     },
     {
       "type": "kendo-ui-mobile:view",
-      "name": "category02",
+      "name": "category02View",
       "components": [],
       "title": "Category 02",
       "addToNavigation": true,
       "icon": "mostviewed"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "category03View",
+      "components": [],
+      "title": "Category 03",
+      "addToNavigation": true,
+      "icon": "mostviewed"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "category04View",
+      "components": [],
+      "title": "Category 04",
+      "addToNavigation": true,
+      "icon": "mostviewed"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "category05View",
+      "components": [],
+      "title": "Category 05",
+      "addToNavigation": true,
+      "icon": "mostviewed"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "category06View",
+      "components": [],
+      "title": "Category 06",
+      "addToNavigation": true,
+      "icon": "mostviewed"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "searchView",
+      "components": [],
+      "title": "Search",
+      "addToNavigation": true,
+      "icon": "search"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "profileView",
+      "components": [
+        {
+          "type": "kendo-ui-mobile:form",
+          "components": [
+            {
+              "type": "kendo-ui-mobile:editableListForm",
+              "components": [
+                {
+                  "type": "kendo-ui-mobile:editableListFormField",
+                  "name": "txtFirstName",
+                  "dataBindingRelationChildren": "[]",
+                  "dataBindingMultipleSelectChildren": "[]",
+                  "title": "First Name",
+                  "inputType": "text",
+                  "titlePosition": "left",
+                  "inputTextType": "text",
+                  "placeholder": "Type here ..."
+                }
+              ],
+              "name": "editableListForm4",
+              "formType": "add"
+            }
+          ],
+          "name": "profileViewModel",
+          "enableDataBinding": false,
+          "submitButton": "Confirm",
+          "cancelButton": "Cancel"
+        }
+      ],
+      "title": "My Profile",
+      "addToNavigation": true,
+      "icon": "contacts"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "favoritesView",
+      "components": [],
+      "title": "My Favorites",
+      "addToNavigation": true,
+      "icon": "info"
     }
   ],
   "dataProviders": [],
   "name": "kendoUiMobileApp",
-  "navigation": "listmenu",
-  "transition": "slide",
+  "navigation": "drawer",
+  "view": "homeView",
   "skin": "nova",
   "skinMainColor": "#990000",
   "skinTextColor": "#ffffff",

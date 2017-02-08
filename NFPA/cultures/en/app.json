@@ -10,7 +10,38 @@
   "category01View": {
     "title": "Category 01"
   },
-  "category02": {
+  "category02View": {
     "title": "Category 02"
+  },
+  "category03View": {
+    "title": "Category 03"
+  },
+  "category04View": {
+    "title": "Category 04"
+  },
+  "category05View": {
+    "title": "Category 05"
+  },
+  "category06View": {
+    "title": "Category 06"
+  },
+  "searchView": {
+    "title": "Search"
+  },
+  "profileView": {
+    "title": "My Profile",
+    "profileViewModel": {
+      "submitButton": "Confirm",
+      "cancelButton": "Cancel",
+      "editableListForm4": {
+        "txtFirstName": {
+          "title": "First Name",
+          "placeholder": "Type here ..."
+        }
+      }
+    }
+  },
+  "favoritesView": {
+    "title": "My Favorites"
   }
 }
