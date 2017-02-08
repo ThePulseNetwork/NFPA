@@ -4,10 +4,13 @@
     "showMoreTitle": "Show More",
     "qrCodeScan": "Scan"
   },
-  "home": {
+  "homeView": {
     "title": "Home"
   },
   "category01View": {
     "title": "Category 01"
+  },
+  "category02": {
+    "title": "Category 02"
   }
 }

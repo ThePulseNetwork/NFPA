@@ -3,7 +3,7 @@
   "views": [
     {
       "type": "kendo-ui-mobile:view",
-      "name": "home",
+      "name": "homeView",
       "components": [],
       "title": "Home",
       "addToNavigation": true,
@@ -16,6 +16,14 @@
       "title": "Category 01",
       "addToNavigation": true,
       "icon": "mostviewed"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "category02",
+      "components": [],
+      "title": "Category 02",
+      "addToNavigation": true,
+      "icon": "mostviewed"
     }
   ],
   "dataProviders": [],
@@ -25,5 +33,5 @@
   "skin": "nova",
   "skinMainColor": "#990000",
   "skinTextColor": "#ffffff",
-  "skinAccentColor": "#99cccc"
+  "skinAccentColor": "#666699"
 }

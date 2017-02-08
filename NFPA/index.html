@@ -17,8 +17,9 @@
 </head>
 
 <body id="kendoUiMobileApp">
+    <script src="components/category02/index.js"></script>
     <script src="components/category01View/index.js"></script>
-    <script src="components/home/index.js"></script>
+    <script src="components/homeView/index.js"></script>
     <div data-role="layout" data-id="main">
         <header data-role="header">
             <div data-role="navbar">
@@ -43,8 +44,9 @@
 
     <div data-role="view" data-layout="main-nonav" data-title="Index">
         <ul id="navigation-container" data-role="listview" data-style="inset">
-            <li><a href="components/home/view.html" data-icon="home"><span class="navigation-link-text" data-bind="text: strings.home.title"></span></a></li>
+            <li><a href="components/homeView/view.html" data-icon="home"><span class="navigation-link-text" data-bind="text: strings.homeView.title"></span></a></li>
             <li><a href="components/category01View/view.html" data-icon="mostviewed"><span class="navigation-link-text" data-bind="text: strings.category01View.title"></span></a></li>
+            <li><a href="components/category02/view.html" data-icon="mostviewed"><span class="navigation-link-text" data-bind="text: strings.category02.title"></span></a></li>
         </ul>
     </div>
     <div id="notify" class="notify-pop-up">
