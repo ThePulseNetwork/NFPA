@@ -32,12 +32,44 @@
     <Content Include=".release.abproject" />
     <Content Include=".yo-rc.json" />
     <Content Include="app.js" />
-    <Content Include="components\category01View\index.js" />
-    <Content Include="components\category01View\view.html" />
-    <Content Include="components\category02\index.js" />
-    <Content Include="components\category02\view.html" />
+    <Content Include="components\SubCategoryView\index.js" />
+    <Content Include="components\SubCategoryView\view.html" />
+    <Content Include="components\category02View\index.js" />
+    <Content Include="components\category02View\view.html" />
+    <Content Include="components\category03View\index.js" />
+    <Content Include="components\category03View\view.html" />
+    <Content Include="components\category04View\index.js" />
+    <Content Include="components\category04View\view.html" />
+    <Content Include="components\category05View\index.js" />
+    <Content Include="components\category05View\view.html" />
+    <Content Include="components\category06View\index.js" />
+    <Content Include="components\category06View\view.html" />
+    <Content Include="components\favoritesView\index.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="components\favoritesView\index.js" />
+    <Content Include="components\favoritesView\view.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="components\favoritesView\view.html" />
     <Content Include="components\homeView\index.js" />
     <Content Include="components\homeView\view.html" />
+    <Content Include="components\profileView\index.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="components\profileView\index.js" />
+    <Content Include="components\profileView\view.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="components\profileView\view.html" />
+    <Content Include="components\searchView\index.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="components\searchView\index.js" />
+    <Content Include="components\searchView\view.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="components\searchView\view.html" />
     <Content Include="cordova.android.js" />
     <Content Include="cordova.ios.js" />
     <Content Include="cordova.wp8.js" />
@@ -151,9 +183,11 @@
     <Folder Include="App_Resources\WP8\Tiles\" />
     <Folder Include="App_Resources\WP8\Tiles\Iconic\" />
     <Folder Include="components\" />
-    <Folder Include="components\category01View\" />
-    <Folder Include="components\category02\" />
+    <Folder Include="components\SubCategoryView\" />
+    <Folder Include="components\favoritesView\" />
     <Folder Include="components\homeView\" />
+    <Folder Include="components\profileView\" />
+    <Folder Include="components\searchView\" />
     <Folder Include="cultures\" />
     <Folder Include="cultures\en\" />
     <Folder Include="kendo\" />
