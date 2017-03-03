@@ -20,7 +20,7 @@
     <script src="components/favoritesView/index.js"></script>
     <script src="components/homeView/index.js"></script>
     <script src="components/subCategoryView/index.js"></script>
-
+    <script src="components/playerView/index.js"></script>
 
     <div data-role="layout" data-id="main">
         <header data-role="header">
@@ -47,12 +47,12 @@
         </header>
         <ul id="navigation-container" data-role="listview">
             <li><a href="components/homeView/view.html" data-icon="home"><span class="navigation-link-text" data-bind="text: strings.homeView.title"></span></a></li>
-            <li><a href="components/SubCategoryView/view.html" data-icon="mostviewed"><span class="navigation-link-text" data-bind="text: strings.category01View.title"></span></a></li>
-            <li><a href="components/SubCategoryView/view.html" data-icon="mostviewed"><span class="navigation-link-text" data-bind="text: strings.category02View.title"></span></a></li>
-            <li><a href="components/SubCategoryView/view.html" data-icon="mostviewed"><span class="navigation-link-text" data-bind="text: strings.category03View.title"></span></a></li>
-            <li><a href="components/SubCategoryView/view.html" data-icon="mostviewed"><span class="navigation-link-text" data-bind="text: strings.category04View.title"></span></a></li>
-            <li><a href="components/SubCategoryView/view.html" data-icon="mostviewed"><span class="navigation-link-text" data-bind="text: strings.category05View.title"></span></a></li>
-            <li><a href="components/SubCategoryView/view.html" data-icon="mostviewed"><span class="navigation-link-text" data-bind="text: strings.category06View.title"></span></a></li>
+            <li><a href="components/subCategoryView/view.html?c=NFPA NEWs&s=" data-icon="mostviewed"><span class="navigation-link-text">NFPA NEWs </span></a></li>
+            <li><a href="components/subCategoryView/view.html?c=Health and Safety&s=" data-icon="mostviewed"><span class="navigation-link-text">Health and Safety </span></a></li>
+            <li><a href="components/subCategoryView/view.html?c=Your Voice Matters&s=" data-icon="mostviewed"><span class="navigation-link-text">Your Voice Matters </span></a></li>
+            <li><a href="components/subCategoryView/view.html?c=Emergency Services&s=" data-icon="mostviewed"><span class="navigation-link-text">Emergency Services </span></a></li>
+            <li><a href="components/subCategoryView/view.html?c=Future of Firefighting&s=" data-icon="mostviewed"><span class="navigation-link-text">Future of Firefighting </span></a></li>
+            <li><a href="components/subCategoryView/view.html?c=Emergency Preparedness&s=" data-icon="mostviewed"><span class="navigation-link-text">Emergency Preparedness </span></a></li>
             <li><a href="components/favoritesView/view.html" data-icon="info"><span class="navigation-link-text" data-bind="text: strings.favoritesView.title"></span></a></li>
         </ul>
     </div>
@@ -66,6 +66,16 @@
     <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
 
     <!-- END_CUSTOM_CODE_kendoUiMobileApp -->
+
+    <script id="asset-template" type="text/x-kendo-tmpl">
+        <a href="components/playerView/view.html" >
+            <div>
+                ${name}
+            </div>
+        </a>
+    </script>
+
+
 </body>
 
 </html>

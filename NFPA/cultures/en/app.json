@@ -7,23 +7,8 @@
   "homeView": {
     "title": "Home"
   },
-  "category01View": {
-    "title": "Category 01"
-  },
-  "category02View": {
-    "title": "Category 02"
-  },
-  "category03View": {
-    "title": "Category 03"
-  },
-  "category04View": {
-    "title": "Category 04"
-  },
-  "category05View": {
-    "title": "Category 05"
-  },
-  "category06View": {
-    "title": "Category 06"
+  "subCategoryView": {
+    "title": "Sub Category"
   },
   "searchView": {
     "title": "Search"

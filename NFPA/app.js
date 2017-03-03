@@ -39,7 +39,20 @@
     };
 
     if (window.cordova) {
-        document.addEventListener('deviceready', function() {
+        document.addEventListener('deviceready', function () {
+
+            var appName = 'NFPA 1st Responder';
+            var thisVersion = '1.0.1';
+
+            localStorage.setItem('appname', appName);
+            localStorage.setItem('appversion', thisVersion);
+
+            localStorage.setItem('apitimeout', '5');
+            localStorage.setItem('apiserver', 'http://areid.thepulsenetwork.com/PlatformApi/api/');
+
+            localStorage.setItem('apikey', '4685A497-CD45-4448-9D44-60D6B3FEB422');
+            localStorage.setItem('campaignkey', 'A5EE5CA2-A4F3-E611-80C9-000D3A102F0D');
+
             if (navigator && navigator.splashscreen) {
                 navigator.splashscreen.hide();
             }

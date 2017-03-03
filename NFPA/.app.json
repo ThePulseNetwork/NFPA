@@ -11,49 +11,9 @@
     },
     {
       "type": "kendo-ui-mobile:view",
-      "name": "category01View",
+      "name": "subCategoryView",
       "components": [],
-      "title": "Category 01",
-      "addToNavigation": true,
-      "icon": "mostviewed"
-    },
-    {
-      "type": "kendo-ui-mobile:view",
-      "name": "category02View",
-      "components": [],
-      "title": "Category 02",
-      "addToNavigation": true,
-      "icon": "mostviewed"
-    },
-    {
-      "type": "kendo-ui-mobile:view",
-      "name": "category03View",
-      "components": [],
-      "title": "Category 03",
-      "addToNavigation": true,
-      "icon": "mostviewed"
-    },
-    {
-      "type": "kendo-ui-mobile:view",
-      "name": "category04View",
-      "components": [],
-      "title": "Category 04",
-      "addToNavigation": true,
-      "icon": "mostviewed"
-    },
-    {
-      "type": "kendo-ui-mobile:view",
-      "name": "category05View",
-      "components": [],
-      "title": "Category 05",
-      "addToNavigation": true,
-      "icon": "mostviewed"
-    },
-    {
-      "type": "kendo-ui-mobile:view",
-      "name": "category06View",
-      "components": [],
-      "title": "Category 06",
+      "title": "Sub Category",
       "addToNavigation": true,
       "icon": "mostviewed"
     },

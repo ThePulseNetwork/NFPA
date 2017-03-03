@@ -32,18 +32,11 @@
     <Content Include=".release.abproject" />
     <Content Include=".yo-rc.json" />
     <Content Include="app.js" />
+    <Content Include="components\playerView\index.js" />
+    <Content Include="components\playerView\view.html" />
     <Content Include="components\SubCategoryView\index.js" />
     <Content Include="components\SubCategoryView\view.html" />
-    <Content Include="components\category02View\index.js" />
     <Content Include="components\category02View\view.html" />
-    <Content Include="components\category03View\index.js" />
-    <Content Include="components\category03View\view.html" />
-    <Content Include="components\category04View\index.js" />
-    <Content Include="components\category04View\view.html" />
-    <Content Include="components\category05View\index.js" />
-    <Content Include="components\category05View\view.html" />
-    <Content Include="components\category06View\index.js" />
-    <Content Include="components\category06View\view.html" />
     <Content Include="components\favoritesView\index.js">
       <SubType>Content</SubType>
     </Content>
@@ -183,6 +176,8 @@
     <Folder Include="App_Resources\WP8\Tiles\" />
     <Folder Include="App_Resources\WP8\Tiles\Iconic\" />
     <Folder Include="components\" />
+    <Folder Include="components\category02View\" />
+    <Folder Include="components\playerView\" />
     <Folder Include="components\SubCategoryView\" />
     <Folder Include="components\favoritesView\" />
     <Folder Include="components\homeView\" />
